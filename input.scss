@@ -1,0 +1,194 @@
+HTML,body {
+    margin: 0;
+    padding: 0;
+    footer{
+        width: 100%;
+        height: 200px;
+        background-color:#c2b394 ;
+    }
+    .contenedor{
+     color:#082c31;
+  
+     display: flex;
+     flex-direction: column;
+     overflow-x: hidden;
+     
+     .contenedor-circulo{
+        display: flex;
+        justify-content: flex-end;
+        .circulo{
+            top:-250px;
+            position: absolute;
+            background-color:#53b0bd ;
+            border-radius: 0 0 0 100% ;
+            height: 400px;
+            width: 400px;
+           
+          
+        }
+        .contenedor-boton{
+            position: absolute;
+            padding-top: 30px;
+            padding-right: 20px;
+            .boton-descargar-cv{
+           
+              
+                width: 150px;
+                height: 45px;
+                border-radius:20px;
+                background-color: #fbfbfb;
+                font-weight: 800;
+                color:#53b0bd ;
+            }
+            
+        }
+
+     }
+    
+
+     
+
+    .nav-bar{
+        align-items: center;
+        justify-content: center;
+        display:flex;
+        gap:8%;
+        width: 100%;
+        height: 100px;
+        background-color: #fbfbfb;
+        font-size: 15px;
+        font-weight: 700;
+        font-family: inherit;
+        color: #082c31;
+
+    }
+    .seccion{
+        width: 100%;
+        height: 1000px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color:#ececec;
+        .descripcion{
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            font-size: 50px;
+            font-weight: 600;
+            
+            p{
+                font-size: 25px;
+                font-weight: 400;
+                padding-bottom: 50px;
+            }
+            span{
+                color:#12646f ;
+            }
+
+            .habilidades{
+                
+                font-family: 'Courgette', cursive;
+                font-weight: 600;
+                font-size: 30px;
+                color:#12646f;
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                .tecnologias{
+                    display: flex;
+                    flex-direction: row;
+                    gap: 20px;
+                }
+              
+                .logos{
+                    width: 100px;
+                }
+            }
+
+        }
+    .contacto{
+    display: flex;
+    flex-direction: row;    
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+        .sobre-mi{
+ 
+            color:#082c31;
+            font-size: 20px;
+            text-align: center;
+            flex-wrap: nowrap;
+            .titulo-sobre-mi{
+                font-size:40px;
+                font-weight: 600;;
+            }
+            .parrafo-sobre-mi{
+                margin: auto;
+                margin-bottom: 50px;
+                width: 50%;
+                text-align: justify;
+            }
+        }
+        .formas-de-contacto{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        gap:10px;
+            .tarjeta{
+                height:100px;
+                width: 500px;
+                border-radius: 20px;
+                display:flex;
+                justify-content: center;
+                align-items: center;
+                background-color:#fbfbfb;
+                font-size:30px;
+                font-weight: 700;
+                
+                .imagen-contacto{
+                  border-radius: 50%;  
+                  width: 15%;
+                  height:70%;
+                  background-color:#12646f;
+                  color: #fbfbfb;
+                  display:flex;
+                  justify-content: center;
+                  align-items: center;
+                
+
+                }
+                .contenedor-parrafos{
+                    display:flex;
+                    width: 75%;
+                    flex-direction: column;
+                    text-align: center;
+                    .parrafo-titulo{
+                        
+                        color:#082c31;
+                        font-size: 25px;
+                       
+                    }
+                    .parrafo-contenido{
+                        color:#12646f;
+                        font-size: 20px;
+                     
+                    }
+                }
+
+            }
+        }
+        #mi-foto{
+        
+          max-width: 400px;
+          border-radius: 50%;
+        }
+}
+
+
+        
+    }
+}  
+
+
+}
