@@ -1,23 +1,40 @@
-HTML, body {
+body, html {
   margin: 0;
   padding: 0;
-}
-HTML footer, body footer {
-  width: 100%;
-  height: 200px;
-  background-color: #c2b394;
-}
-HTML .contenedor, body .contenedor {
+  overflow-x: hidden;
+  font-family: "Nunito", sans-serif;
   color: #082c31;
+  scroll-behavior: smooth;
+}
+body footer, html footer {
+  width: 100%;
+  height: 100px;
+  background-color: #c2b394;
+  display: flex;
+  justify-content: center;
+}
+body footer .copyright, html footer .copyright {
+  margin: 0;
+}
+body .contenedor, html .contenedor {
   display: flex;
   flex-direction: column;
   overflow-x: hidden;
+  margin: 0;
+  padding: 0;
 }
-HTML .contenedor .contenedor-circulo, body .contenedor .contenedor-circulo {
+body .contenedor .contenedor-nav-bar, html .contenedor .contenedor-nav-bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  margin: 0;
+}
+body .contenedor .contenedor-nav-bar .contenedor-circulo, html .contenedor .contenedor-nav-bar .contenedor-circulo {
   display: flex;
   justify-content: flex-end;
 }
-HTML .contenedor .contenedor-circulo .circulo, body .contenedor .contenedor-circulo .circulo {
+body .contenedor .contenedor-nav-bar .contenedor-circulo .circulo, html .contenedor .contenedor-nav-bar .contenedor-circulo .circulo {
   top: -250px;
   position: absolute;
   background-color: #53b0bd;
@@ -25,57 +42,305 @@ HTML .contenedor .contenedor-circulo .circulo, body .contenedor .contenedor-circ
   height: 400px;
   width: 400px;
 }
-HTML .contenedor .contenedor-circulo .contenedor-boton, body .contenedor .contenedor-circulo .contenedor-boton {
+body .contenedor .contenedor-nav-bar .contenedor-circulo .contenedor-boton, html .contenedor .contenedor-nav-bar .contenedor-circulo .contenedor-boton {
   position: absolute;
   padding-top: 30px;
   padding-right: 20px;
 }
-HTML .contenedor .contenedor-circulo .contenedor-boton .boton-descargar-cv, body .contenedor .contenedor-circulo .contenedor-boton .boton-descargar-cv {
+body .contenedor .contenedor-nav-bar .contenedor-circulo .contenedor-boton .boton-descargar-cv, html .contenedor .contenedor-nav-bar .contenedor-circulo .contenedor-boton .boton-descargar-cv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  border: none;
   width: 150px;
   height: 45px;
   border-radius: 20px;
   background-color: #fbfbfb;
   font-weight: 800;
   color: #53b0bd;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 #12646f;
+  -webkit-transition: ease-out 0.5s;
+  -moz-transition: ease-out 0.5s;
+  transition: ease-out 0.5s;
 }
-HTML .contenedor .nav-bar, body .contenedor .nav-bar {
+body .contenedor .contenedor-nav-bar .contenedor-circulo .contenedor-boton .boton-descargar-cv:hover, html .contenedor .contenedor-nav-bar .contenedor-circulo .contenedor-boton .boton-descargar-cv:hover {
+  color: #fbfbfb;
+  box-shadow: inset 400px 0 0 0 #12646f;
+  background-color: #12646f;
+}
+body .contenedor .contenedor-nav-bar .nav-bar, html .contenedor .contenedor-nav-bar .nav-bar {
+  display: flex;
   align-items: center;
   justify-content: center;
-  display: flex;
   gap: 8%;
   width: 100%;
   height: 100px;
   background-color: #fbfbfb;
   font-size: 15px;
   font-weight: 700;
-  font-family: inherit;
+}
+body .contenedor .contenedor-nav-bar .nav-bar a, body .contenedor .contenedor-nav-bar .nav-bar a:visited, body .contenedor .contenedor-nav-bar .nav-bar a:hover, body .contenedor .contenedor-nav-bar .nav-bar a:active, html .contenedor .contenedor-nav-bar .nav-bar a, html .contenedor .contenedor-nav-bar .nav-bar a:visited, html .contenedor .contenedor-nav-bar .nav-bar a:hover, html .contenedor .contenedor-nav-bar .nav-bar a:active {
+  color: inherit;
+}
+body .contenedor .contenedor-nav-bar .nav-bar .opciones-nav, html .contenedor .contenedor-nav-bar .nav-bar .opciones-nav {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  height: 99px;
+}
+body .contenedor .contenedor-nav-bar .nav-bar .opciones-nav .parrafo-nav, html .contenedor .contenedor-nav-bar .nav-bar .opciones-nav .parrafo-nav {
+  margin: auto;
+}
+body .contenedor .contenedor-nav-bar .nav-bar .opciones-nav:hover, html .contenedor .contenedor-nav-bar .nav-bar .opciones-nav:hover {
+  border-bottom: 3px solid #53b0bd;
+}
+body .contenedor .seccion, html .contenedor .seccion {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  background-color: #ececec;
+  text-align: center;
+}
+body .contenedor .seccion #mega-contenedor, body .contenedor .seccion #mega-contenedor-sobre-mi, html .contenedor .seccion #mega-contenedor, html .contenedor .seccion #mega-contenedor-sobre-mi {
+  margin: 0 auto;
+  gap: 15px;
+  display: flex;
+  padding: 10vh 0vw;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+body .contenedor .seccion #mega-contenedor .informacion, body .contenedor .seccion #mega-contenedor-sobre-mi .informacion, html .contenedor .seccion #mega-contenedor .informacion, html .contenedor .seccion #mega-contenedor-sobre-mi .informacion {
+  color: #fbfbfb;
+  font-family: "Nunito", sans-serif;
+}
+body .contenedor .seccion #mega-contenedor .informacion .resumen, body .contenedor .seccion #mega-contenedor-sobre-mi .informacion .resumen, html .contenedor .seccion #mega-contenedor .informacion .resumen, html .contenedor .seccion #mega-contenedor-sobre-mi .informacion .resumen {
+  width: 60%;
+  margin: auto;
+  font-size: 20px;
+  color: #12646f;
+  font-weight: 700;
+  font-family: "Courgette", cursive;
+}
+body .contenedor .seccion #mega-contenedor .informacion .division-sobre-mi, body .contenedor .seccion #mega-contenedor-sobre-mi .informacion .division-sobre-mi, html .contenedor .seccion #mega-contenedor .informacion .division-sobre-mi, html .contenedor .seccion #mega-contenedor-sobre-mi .informacion .division-sobre-mi {
+  height: 2px;
+  background: #fbfbfb;
+  width: 50%;
+  justify-content: center;
+  margin-top: 20px;
+  border: none;
+  margin-bottom: 30px;
+}
+body .contenedor .seccion #mega-contenedor .informacion .formacion, body .contenedor .seccion #mega-contenedor-sobre-mi .informacion .formacion, html .contenedor .seccion #mega-contenedor .informacion .formacion, html .contenedor .seccion #mega-contenedor-sobre-mi .informacion .formacion {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  justify-content: center;
+}
+body .contenedor .seccion #mega-contenedor .informacion .formacion .titulos, body .contenedor .seccion #mega-contenedor-sobre-mi .informacion .formacion .titulos, html .contenedor .seccion #mega-contenedor .informacion .formacion .titulos, html .contenedor .seccion #mega-contenedor-sobre-mi .informacion .formacion .titulos {
+  font-family: "Courgette", cursive;
+  color: #12646f;
+}
+body .contenedor .seccion #mega-contenedor .informacion .formacion .parrafo-simple, body .contenedor .seccion #mega-contenedor-sobre-mi .informacion .formacion .parrafo-simple, html .contenedor .seccion #mega-contenedor .informacion .formacion .parrafo-simple, html .contenedor .seccion #mega-contenedor-sobre-mi .informacion .formacion .parrafo-simple {
+  font-size: 20px;
+  font-family: "Nunito", sans-serif;
+  text-decoration: none;
+  font-weight: 800;
+}
+body .contenedor .seccion #mega-contenedor .informacion .formacion .parrafo-simple .link, body .contenedor .seccion #mega-contenedor-sobre-mi .informacion .formacion .parrafo-simple .link, html .contenedor .seccion #mega-contenedor .informacion .formacion .parrafo-simple .link, html .contenedor .seccion #mega-contenedor-sobre-mi .informacion .formacion .parrafo-simple .link {
+  text-decoration: none;
+  color: inherit;
+}
+body .contenedor .seccion #mega-contenedor .informacion .formacion .parrafo-simple .link span, body .contenedor .seccion #mega-contenedor-sobre-mi .informacion .formacion .parrafo-simple .link span, html .contenedor .seccion #mega-contenedor .informacion .formacion .parrafo-simple .link span, html .contenedor .seccion #mega-contenedor-sobre-mi .informacion .formacion .parrafo-simple .link span {
+  font-family: "Courgette", cursive;
+  color: #12646f;
+}
+body .contenedor .seccion #mega-contenedor .informacion .formacion .parrafo-simple .link span:hover, body .contenedor .seccion #mega-contenedor-sobre-mi .informacion .formacion .parrafo-simple .link span:hover, html .contenedor .seccion #mega-contenedor .informacion .formacion .parrafo-simple .link span:hover, html .contenedor .seccion #mega-contenedor-sobre-mi .informacion .formacion .parrafo-simple .link span:hover {
   color: #082c31;
 }
-HTML .contenedor .seccion, body .contenedor .seccion {
-  width: 100%;
-  height: 1000px;
+body .contenedor .seccion #mega-contenedor .informacion .idiomas, body .contenedor .seccion #mega-contenedor-sobre-mi .informacion .idiomas, html .contenedor .seccion #mega-contenedor .informacion .idiomas, html .contenedor .seccion #mega-contenedor-sobre-mi .informacion .idiomas {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: #ececec;
+  margin-bottom: 50px;
 }
-HTML .contenedor .seccion .descripcion, body .contenedor .seccion .descripcion {
+body .contenedor .seccion #mega-contenedor .informacion .idiomas .titulos, body .contenedor .seccion #mega-contenedor-sobre-mi .informacion .idiomas .titulos, html .contenedor .seccion #mega-contenedor .informacion .idiomas .titulos, html .contenedor .seccion #mega-contenedor-sobre-mi .informacion .idiomas .titulos {
+  font-family: "Courgette", cursive;
+  color: #12646f;
+}
+body .contenedor .seccion #mega-contenedor .informacion .idiomas .parrafo-simple, body .contenedor .seccion #mega-contenedor-sobre-mi .informacion .idiomas .parrafo-simple, html .contenedor .seccion #mega-contenedor .informacion .idiomas .parrafo-simple, html .contenedor .seccion #mega-contenedor-sobre-mi .informacion .idiomas .parrafo-simple {
+  font-size: 25px;
+  font-family: "Nunito", sans-serif;
+  text-decoration: none;
+  font-weight: 800;
+}
+body .contenedor .seccion #mega-contenedor .informacion .idiomas .parrafo-simple span, body .contenedor .seccion #mega-contenedor-sobre-mi .informacion .idiomas .parrafo-simple span, html .contenedor .seccion #mega-contenedor .informacion .idiomas .parrafo-simple span, html .contenedor .seccion #mega-contenedor-sobre-mi .informacion .idiomas .parrafo-simple span {
+  font-weight: 500;
+  color: #fbfbfb;
+  font-family: "Courgette", cursive;
+}
+body .contenedor .seccion #mega-contenedor .encabezado-sobre-mi, body .contenedor .seccion #mega-contenedor-sobre-mi .encabezado-sobre-mi, html .contenedor .seccion #mega-contenedor .encabezado-sobre-mi, html .contenedor .seccion #mega-contenedor-sobre-mi .encabezado-sobre-mi {
+  font-size: 30px;
+  color: #fbfbfb;
+  font-weight: 800;
+  font-family: "Courgette", cursive;
+}
+body .contenedor .seccion #mega-contenedor .encabezado-proyectos, body .contenedor .seccion #mega-contenedor-sobre-mi .encabezado-proyectos, html .contenedor .seccion #mega-contenedor .encabezado-proyectos, html .contenedor .seccion #mega-contenedor-sobre-mi .encabezado-proyectos {
+  font-size: 30px;
+  color: #fbfbfb;
+  font-weight: 800;
+  font-family: "Courgette", cursive;
+}
+body .contenedor .seccion #mega-contenedor #contenedor-proyectos, body .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos, html .contenedor .seccion #mega-contenedor #contenedor-proyectos, html .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos {
+  margin-top: 70px;
+  display: flex;
+  gap: 10px;
+  max-width: 750px;
+  position: relative;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+}
+body .contenedor .seccion #mega-contenedor #contenedor-proyectos .proyectos, body .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos .proyectos, html .contenedor .seccion #mega-contenedor #contenedor-proyectos .proyectos, html .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos .proyectos {
+  width: 100%;
+  scroll-snap-align: center;
+  height: 450px;
+}
+body .contenedor .seccion #mega-contenedor #contenedor-proyectos .proyectos .tarjeta-proyecto, body .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos .proyectos .tarjeta-proyecto, html .contenedor .seccion #mega-contenedor #contenedor-proyectos .proyectos .tarjeta-proyecto, html .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos .proyectos .tarjeta-proyecto {
+  border-radius: 10px 10px 10px 10px;
+  height: 400px;
+  width: 300px;
+  overflow: hidden;
+  background-color: #12646f;
+}
+body .contenedor .seccion #mega-contenedor #contenedor-proyectos .proyectos .tarjeta-proyecto .division, body .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos .proyectos .tarjeta-proyecto .division, html .contenedor .seccion #mega-contenedor #contenedor-proyectos .proyectos .tarjeta-proyecto .division, html .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos .proyectos .tarjeta-proyecto .division {
+  height: 2px;
+  background: #53b0bd;
+  width: 50%;
+  justify-content: center;
+  margin-top: 20px;
+  border: none;
+}
+body .contenedor .seccion #mega-contenedor #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-botones-proyecto, body .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-botones-proyecto, html .contenedor .seccion #mega-contenedor #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-botones-proyecto, html .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-botones-proyecto {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 5%;
+}
+body .contenedor .seccion #mega-contenedor #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-botones-proyecto .boton-proyecto-repositorio, body .contenedor .seccion #mega-contenedor #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-botones-proyecto .boton-proyecto-demo, body .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-botones-proyecto .boton-proyecto-repositorio, body .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-botones-proyecto .boton-proyecto-demo, html .contenedor .seccion #mega-contenedor #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-botones-proyecto .boton-proyecto-repositorio, html .contenedor .seccion #mega-contenedor #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-botones-proyecto .boton-proyecto-demo, html .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-botones-proyecto .boton-proyecto-repositorio, html .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-botones-proyecto .boton-proyecto-demo {
+  font-size: 15px;
+  width: 120px;
+  color: #12646f;
+  font-weight: 800;
+  background-color: #fbfbfb;
+  border-radius: 5px;
+  height: 35px;
+  border: 3px solid #53b0bd;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .contenedor .seccion #mega-contenedor #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-botones-proyecto .boton-proyecto-repositorio:hover, body .contenedor .seccion #mega-contenedor #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-botones-proyecto .boton-proyecto-demo:hover, body .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-botones-proyecto .boton-proyecto-repositorio:hover, body .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-botones-proyecto .boton-proyecto-demo:hover, html .contenedor .seccion #mega-contenedor #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-botones-proyecto .boton-proyecto-repositorio:hover, html .contenedor .seccion #mega-contenedor #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-botones-proyecto .boton-proyecto-demo:hover, html .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-botones-proyecto .boton-proyecto-repositorio:hover, html .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-botones-proyecto .boton-proyecto-demo:hover {
+  background-color: #53b0bd;
+  color: #fbfbfb;
+  border: 3px solid #fbfbfb;
+}
+body .contenedor .seccion #mega-contenedor #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-descripcion-proyecto, body .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-descripcion-proyecto, html .contenedor .seccion #mega-contenedor #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-descripcion-proyecto, html .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-descripcion-proyecto {
+  display: flex;
+  justify-content: center;
+  font-family: "Nunito", sans-serif;
+  color: #c2b394;
+}
+body .contenedor .seccion #mega-contenedor #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-tecnologias-proyecto, body .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-tecnologias-proyecto, html .contenedor .seccion #mega-contenedor #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-tecnologias-proyecto, html .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-tecnologias-proyecto {
+  display: flex;
+  justify-content: center;
+  gap: 2%;
+  margin-top: 30px;
+  font-family: "Nunito", sans-serif;
+  font-size: 12px;
+  font-weight: 800;
+  color: #fbfbfb;
+}
+body .contenedor .seccion #mega-contenedor #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-img-proyecto, body .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-img-proyecto, html .contenedor .seccion #mega-contenedor #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-img-proyecto, html .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-img-proyecto {
+  display: block;
+  width: 300px;
+  height: 150px;
+  overflow: hidden;
+}
+body .contenedor .seccion #mega-contenedor #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-img-proyecto .preview-proyecto, body .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-img-proyecto .preview-proyecto, html .contenedor .seccion #mega-contenedor #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-img-proyecto .preview-proyecto, html .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-img-proyecto .preview-proyecto {
+  filter: brightness(50%);
+  display: flex;
+  width: 300px;
+  height: 150px;
+  border-radius: 10px 10px 0px 0px;
+  position: absolute;
+}
+body .contenedor .seccion #mega-contenedor #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-img-proyecto .preview-proyecto:hover, body .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-img-proyecto .preview-proyecto:hover, html .contenedor .seccion #mega-contenedor #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-img-proyecto .preview-proyecto:hover, html .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-img-proyecto .preview-proyecto:hover {
+  transition: 0.5s;
+  filter: brightness(100%);
+}
+body .contenedor .seccion #mega-contenedor #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-img-proyecto .contenedor-tecnologia, body .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-img-proyecto .contenedor-tecnologia, html .contenedor .seccion #mega-contenedor #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-img-proyecto .contenedor-tecnologia, html .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-img-proyecto .contenedor-tecnologia {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+body .contenedor .seccion #mega-contenedor #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-img-proyecto .contenedor-tecnologia .tecnologia-proyecto, body .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-img-proyecto .contenedor-tecnologia .tecnologia-proyecto, html .contenedor .seccion #mega-contenedor #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-img-proyecto .contenedor-tecnologia .tecnologia-proyecto, html .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-img-proyecto .contenedor-tecnologia .tecnologia-proyecto {
+  margin: 3%;
+  height: 90px;
+  width: 90px;
+  position: absolute;
+  border-radius: 15px;
+}
+body .contenedor .seccion #mega-contenedor #contenedor-proyectos::-webkit-scrollbar, body .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos::-webkit-scrollbar, html .contenedor .seccion #mega-contenedor #contenedor-proyectos::-webkit-scrollbar, html .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos::-webkit-scrollbar {
+  height: 10px;
+  background-color: #fbfbfb;
+  border-radius: 5px;
+}
+body .contenedor .seccion #mega-contenedor #contenedor-proyectos::-webkit-scrollbar-thumb, body .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos::-webkit-scrollbar-thumb, html .contenedor .seccion #mega-contenedor #contenedor-proyectos::-webkit-scrollbar-thumb, html .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos::-webkit-scrollbar-thumb {
+  background-color: #ff7300;
+  border-radius: 5px;
+}
+body .contenedor .seccion #mega-contenedor #contenedor-proyectos::-webkit-scrollbar-thumb:hover, body .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos::-webkit-scrollbar-thumb:hover, html .contenedor .seccion #mega-contenedor #contenedor-proyectos::-webkit-scrollbar-thumb:hover, html .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos::-webkit-scrollbar-thumb:hover {
+  background-color: #ffab66;
+}
+body .contenedor .seccion #descripcion, html .contenedor .seccion #descripcion {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   font-size: 50px;
   font-weight: 600;
+  padding: 20vh 0vw 10vh 0vw;
+  margin: 0 10% 0 10%;
 }
-HTML .contenedor .seccion .descripcion p, body .contenedor .seccion .descripcion p {
+body .contenedor .seccion #descripcion h1, html .contenedor .seccion #descripcion h1 {
+  font-size: 60px;
+  margin: 0;
+}
+body .contenedor .seccion #descripcion .sobre-mi, html .contenedor .seccion #descripcion .sobre-mi {
+  font-size: 20px;
+  text-align: center;
+  flex-wrap: nowrap;
+}
+body .contenedor .seccion #descripcion .sobre-mi .parrafo-sobre-mi, html .contenedor .seccion #descripcion .sobre-mi .parrafo-sobre-mi {
+  margin: 20px auto;
+  width: 500px;
+  text-align: justify;
+  font-size: 18px;
+}
+body .contenedor .seccion #descripcion h2, html .contenedor .seccion #descripcion h2 {
   font-size: 25px;
   font-weight: 400;
-  padding-bottom: 50px;
+  margin: 0;
 }
-HTML .contenedor .seccion .descripcion span, body .contenedor .seccion .descripcion span {
+body .contenedor .seccion #descripcion span, html .contenedor .seccion #descripcion span {
   color: #12646f;
 }
-HTML .contenedor .seccion .descripcion .habilidades, body .contenedor .seccion .descripcion .habilidades {
+body .contenedor .seccion #descripcion .habilidades, html .contenedor .seccion #descripcion .habilidades {
+  margin-top: 20px;
   font-family: "Courgette", cursive;
   font-weight: 600;
   font-size: 30px;
@@ -84,44 +349,51 @@ HTML .contenedor .seccion .descripcion .habilidades, body .contenedor .seccion .
   flex-direction: column;
   text-align: center;
 }
-HTML .contenedor .seccion .descripcion .habilidades .tecnologias, body .contenedor .seccion .descripcion .habilidades .tecnologias {
+body .contenedor .seccion #descripcion .habilidades .tecnologias, html .contenedor .seccion #descripcion .habilidades .tecnologias {
   display: flex;
+  justify-content: center;
   flex-direction: row;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 80%;
   gap: 20px;
 }
-HTML .contenedor .seccion .descripcion .habilidades .logos, body .contenedor .seccion .descripcion .habilidades .logos {
+body .contenedor .seccion #descripcion .habilidades .logos, html .contenedor .seccion #descripcion .habilidades .logos {
   width: 100px;
 }
-HTML .contenedor .seccion .contacto, body .contenedor .seccion .contacto {
+body .contenedor .seccion #contacto, html .contenedor .seccion #contacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10%;
+  width: 100%;
+  height: 100%;
+  padding: 10vh 0vw;
+}
+body .contenedor .seccion #contacto #contacto-encabezado, html .contenedor .seccion #contacto #contacto-encabezado {
+  margin-bottom: 100px;
+  font-size: 30px;
+  color: #12646f;
+  font-weight: 800;
+  font-family: "Courgette", cursive;
+}
+body .contenedor .seccion #contacto .contenedor-contacto, html .contenedor .seccion #contacto .contenedor-contacto {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   gap: 10%;
+  width: 100%;
+  height: 100%;
 }
-HTML .contenedor .seccion .contacto .sobre-mi, body .contenedor .seccion .contacto .sobre-mi {
-  color: #082c31;
-  font-size: 20px;
-  text-align: center;
-  flex-wrap: nowrap;
-}
-HTML .contenedor .seccion .contacto .sobre-mi .titulo-sobre-mi, body .contenedor .seccion .contacto .sobre-mi .titulo-sobre-mi {
-  font-size: 40px;
-  font-weight: 600;
-}
-HTML .contenedor .seccion .contacto .sobre-mi .parrafo-sobre-mi, body .contenedor .seccion .contacto .sobre-mi .parrafo-sobre-mi {
-  margin: auto;
-  margin-bottom: 50px;
-  width: 50%;
-  text-align: justify;
-}
-HTML .contenedor .seccion .contacto .formas-de-contacto, body .contenedor .seccion .contacto .formas-de-contacto {
+body .contenedor .seccion #contacto .contenedor-contacto .formas-de-contacto, html .contenedor .seccion #contacto .contenedor-contacto .formas-de-contacto {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 10px;
 }
-HTML .contenedor .seccion .contacto .formas-de-contacto .tarjeta, body .contenedor .seccion .contacto .formas-de-contacto .tarjeta {
+body .contenedor .seccion #contacto .contenedor-contacto .formas-de-contacto .tarjeta, html .contenedor .seccion #contacto .contenedor-contacto .formas-de-contacto .tarjeta {
   height: 100px;
   width: 500px;
   border-radius: 20px;
@@ -131,8 +403,13 @@ HTML .contenedor .seccion .contacto .formas-de-contacto .tarjeta, body .contened
   background-color: #fbfbfb;
   font-size: 30px;
   font-weight: 700;
+  transition: 0.5s;
 }
-HTML .contenedor .seccion .contacto .formas-de-contacto .tarjeta .imagen-contacto, body .contenedor .seccion .contacto .formas-de-contacto .tarjeta .imagen-contacto {
+body .contenedor .seccion #contacto .contenedor-contacto .formas-de-contacto .tarjeta:hover, html .contenedor .seccion #contacto .contenedor-contacto .formas-de-contacto .tarjeta:hover {
+  background-color: #53b0bd;
+}
+body .contenedor .seccion #contacto .contenedor-contacto .formas-de-contacto .tarjeta .imagen-contacto, html .contenedor .seccion #contacto .contenedor-contacto .formas-de-contacto .tarjeta .imagen-contacto {
+  font-size: 40px;
   border-radius: 50%;
   width: 15%;
   height: 70%;
@@ -142,23 +419,188 @@ HTML .contenedor .seccion .contacto .formas-de-contacto .tarjeta .imagen-contact
   justify-content: center;
   align-items: center;
 }
-HTML .contenedor .seccion .contacto .formas-de-contacto .tarjeta .contenedor-parrafos, body .contenedor .seccion .contacto .formas-de-contacto .tarjeta .contenedor-parrafos {
+body .contenedor .seccion #contacto .contenedor-contacto .formas-de-contacto .tarjeta .contenedor-parrafos, html .contenedor .seccion #contacto .contenedor-contacto .formas-de-contacto .tarjeta .contenedor-parrafos {
   display: flex;
   width: 75%;
   flex-direction: column;
   text-align: center;
 }
-HTML .contenedor .seccion .contacto .formas-de-contacto .tarjeta .contenedor-parrafos .parrafo-titulo, body .contenedor .seccion .contacto .formas-de-contacto .tarjeta .contenedor-parrafos .parrafo-titulo {
-  color: #082c31;
+body .contenedor .seccion #contacto .contenedor-contacto .formas-de-contacto .tarjeta .contenedor-parrafos .parrafo-titulo, html .contenedor .seccion #contacto .contenedor-contacto .formas-de-contacto .tarjeta .contenedor-parrafos .parrafo-titulo {
   font-size: 25px;
+  margin: 0;
 }
-HTML .contenedor .seccion .contacto .formas-de-contacto .tarjeta .contenedor-parrafos .parrafo-contenido, body .contenedor .seccion .contacto .formas-de-contacto .tarjeta .contenedor-parrafos .parrafo-contenido {
+body .contenedor .seccion #contacto .contenedor-contacto .formas-de-contacto .tarjeta .contenedor-parrafos .parrafo-contenido, html .contenedor .seccion #contacto .contenedor-contacto .formas-de-contacto .tarjeta .contenedor-parrafos .parrafo-contenido {
   color: #12646f;
   font-size: 20px;
+  margin: 0;
 }
-HTML .contenedor .seccion .contacto #mi-foto, body .contenedor .seccion .contacto #mi-foto {
+body .contenedor .seccion #contacto .contenedor-contacto .formas-de-contacto .tarjeta .contenedor-parrafos .parrafo-contenido:hover, html .contenedor .seccion #contacto .contenedor-contacto .formas-de-contacto .tarjeta .contenedor-parrafos .parrafo-contenido:hover {
+  color: #fbfbfb;
+}
+body .contenedor .seccion #contacto .contenedor-contacto #mi-foto, html .contenedor .seccion #contacto .contenedor-contacto #mi-foto {
   max-width: 400px;
   border-radius: 50%;
+}
+body .contenedor .fondo-celeste, html .contenedor .fondo-celeste {
+  background-color: #53b0bd;
+}
+
+@media (max-width: 1200px) {
+  body .contenedor .contenedor-nav-bar .nav-bar {
+    justify-content: start;
+    padding-left: 10%;
+  }
+  body .contenedor .seccion #contacto #contacto-encabezado {
+    margin-bottom: 30px;
+  }
+  body .contenedor .seccion #contacto .contenedor-contacto {
+    display: block;
+  }
+  body .contenedor .seccion #contacto .contenedor-contacto .contenedor-mi-foto {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 800px) {
+  body .contenedor .contenedor-nav-bar #menuToggle {
+    display: flex;
+  }
+  body .contenedor .contenedor-nav-bar .nav-bar .opciones-nav {
+    display: none;
+  }
+  body .contenedor .seccion #mega-contenedor #contenedor-proyectos {
+    max-width: 300px;
+  }
+  body .contenedor .seccion #descripcion h1 {
+    font-size: 30px;
+  }
+  body .contenedor .seccion #descripcion .sobre-mi .parrafo-sobre-mi {
+    width: 80%;
+  }
+  body .contenedor .seccion #contacto .contenedor-contacto .formas-de-contacto .tarjeta {
+    width: 400px;
+  }
+  body .contenedor .seccion #contacto .contenedor-contacto .formas-de-contacto .tarjeta .contenedor-parrafos .parrafo-contenido {
+    font-size: 13px;
+  }
+  body .contenedor .seccion #contacto .contenedor-contacto .formas-de-contacto .tarjeta .imagen-contacto {
+    font-size: 30px;
+    height: 60%;
+  }
+}
+@media (max-width: 480px) {
+  body .contenedor .seccion #mega-contenedor #contenedor-proyectos {
+    width: 300px;
+  }
+  body .contenedor .seccion #contacto .contenedor-contacto .contenedor-mi-foto #mi-foto {
+    max-width: 300px;
+  }
+  body .contenedor .seccion #contacto .contenedor-contacto .formas-de-contacto .tarjeta {
+    width: 300px;
+  }
+  body .contenedor .seccion #contacto .contenedor-contacto .formas-de-contacto .tarjeta .imagen-contacto {
+    font-size: 25px;
+    width: 18%;
+  }
+}
+#menuToggle {
+  display: none;
+  flex-direction: column;
+  position: fixed;
+  top: 50px;
+  left: 50px;
+  z-index: 1;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+#menuToggle a {
+  text-decoration: none;
+  color: #232323;
+  transition: color 0.3s ease;
+}
+
+#menuToggle a:hover {
+  color: tomato;
+}
+
+#menuToggle input {
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+  cursor: pointer;
+  opacity: 0;
+  z-index: 2;
+  -webkit-touch-callout: none;
+}
+
+#menuToggle span {
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  background: #cdcdcd;
+  border-radius: 3px;
+  z-index: 1;
+  transform-origin: 4px 0px;
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
+}
+
+#menuToggle span:first-child {
+  transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2) {
+  transform-origin: 0% 100%;
+}
+
+#menuToggle input:checked ~ span {
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+  background: #232323;
+}
+
+#menuToggle input:checked ~ span:nth-last-child(3) {
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+#menuToggle input:checked ~ span:nth-last-child(2) {
+  transform: rotate(-45deg) translate(0, -1px);
+}
+
+#menu {
+  position: absolute;
+  width: 300px;
+  border-radius: 0px 0px 10px 0px;
+  margin: -100px 0 0 -50px;
+  padding: 50px;
+  padding-top: 150px;
+  background: #fbfbfb;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  transform-origin: 0% 0%;
+  transform: translate(-100%, 0);
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+}
+
+#menu li {
+  color: #53b0bd;
+  padding: 10px 0 0 15px;
+  font-size: 22px;
+  font-family: "Courgette", cursive;
+  font-weight: 700;
+}
+
+#menu a li:hover {
+  background-color: #ececec;
+}
+
+#menuToggle input:checked ~ ul {
+  transform: none;
 }
 
 /*# sourceMappingURL=output.css.map */

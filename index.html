@@ -9,78 +9,252 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
-    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
-    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
-  <div class="contenedor">
-
-    <div class="contenedor-circulo">
+  <div class="contenedor" >
+    
+  <div class="contenedor-nav-bar" >
+    <div class="contenedor-circulo" >
       <div class="circulo"></div>
       <div class="contenedor-boton">
-        <button class="boton-descargar-cv">Descargar CV</button>
+        <a class="boton-descargar-cv" href="./src/CVDavidOlivera.pdf" download="" >Descargar CV</a>
       </div>
     
     </div>
+
+
+    <div  id="menuToggle">
+
+      <input type="checkbox" />
+  
+      <span></span>
+      <span></span>
+      <span></span>
+    
+      <ul id="menu">
+        <a href="#descripcion"><li>Perfíl</li></a>
+        <a href="#contacto"><li>Contacto</li></a>
+        <a href="#mega-contenedor"><li>Proyectos</li></a>
+        <a href="#mega-contenedor-sobre-mi"><li>Sobre Mí</li></a>
+      </ul>
+    </div>
+
     <nav class="nav-bar">
-      <div class="opciones-nav">  Perfíl </div>
-      <div class="opciones-nav"> Contacto </div>
-      <div class="opciones-nav"> Proyectos </div>
+      <a href="#descripcion" class="opciones-nav"> <p class="parrafo-nav">Perfíl</p> </a>
+      <a href="#contacto" class="opciones-nav">  <p class="parrafo-nav">Contacto</p></a>
+      <a href="#mega-contenedor" class="opciones-nav">  <p class="parrafo-nav">Proyectos</p></a>
+      <a href="#mega-contenedor-sobre-mi" class="opciones-nav">  <p class="parrafo-nav">Sobre Mí</p></a>
      
      
      
      
    </nav>
+  </div>
+
 
 
   <div class="seccion">
-    <div class="descripcion">
+    <div id="descripcion">
       <h1>Hola! me llamo David Olivera 👋 </h1>
-      <p>
-        Soy <span>Front-end Developer</span>  autodidacta
-      </p>
+      <h2>
+        Soy <span>Front-end Developer Jr</span> Freelancer
+      </h2>    
+      <div class="sobre-mi">
+
+        <p class="parrafo-sobre-mi">
+          Disfruto de trabajar en grupo, aprender de otros y 
+          generar soluciones para optimizar el flujo de trabajo. 
+          En mis ratos libres, comparto experiencias con amigos, 
+          escucho música, y me enfoco en nuevos proyectos. 
+        
+        </p>
+      </div>
       <div class="habilidades">
+    
         <p>Habilidades</p>
         <div class="tecnologias">
       
-          <img class="logos" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
-          <img class="logos" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" />
-          <img class="logos" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" />
-          <img class="logos" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" />
-          <img class="logos" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" />
-          <img class="logos" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" />
-          <img class="logos" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" />
-          <img class="logos" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" />
-          <img class="logos" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg" />
+          <img data-aos="fade-up-right" class="logos" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+          <img data-aos="fade-down-right" class="logos" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" />
+          <img data-aos="zoom-out" class="logos" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" />
+          <img data-aos="zoom-in-up"class="logos" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" />
+          <img data-aos="flip-left"class="logos" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" />
+          <img data-aos="zoom-in-down" class="logos" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" />
+          <img data-aos="zoom-out-up" class="logos" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" />
+          <img data-aos="fade-down-left" class="logos" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" />
+          <img data-aos="fade-up-left" class="logos" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg" />
   
          </div>
       </div>
 
 
     </div>
-   
 
+    <div class="wave down">
+      <div style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+              style="height: 100%; width: 100%;">
+              <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                  style="stroke: none; fill: #53b0bd;"></path>
+          </svg>
+      </div>
+  </div>
    </div>
 
-  <div class="seccion">
-     <div class="contacto">
 
-        <div class="formas-de-contacto">
-          <div class="sobre-mi">
-            <p class="titulo-sobre-mi">SOBRE MÍ</p>
-            <p class="parrafo-sobre-mi">
-              Disfruto de trabajar en grupo, aprender de otros y 
-              generar soluciones para optimizar el flujo de trabajo. <br>
-              En mis ratos libres, comparto experiencias con amigos, 
-              escucho música, y me enfoco en nuevos proyectos. 
-            
-            </p>
+ 
+   <div class="seccion fondo-celeste" >
+
+    <div id="mega-contenedor">
+      <h1 class="encabezado-proyectos">Proyectos</h1>
+    <div id="contenedor-proyectos"data-aos="zoom-in" >
+      
+      <div class="proyectos" >
+      
+        <div class="tarjeta-proyecto">
+         <div  class="contenedor-img-proyecto">
+           <img class="preview-proyecto" src="src/img/EasyBank.png">
+          <div class="contenedor-tecnologia">
+            <img class="tecnologia-proyecto" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
           </div>
+           
+         </div >
+         
+         <div class="contenedor-tecnologias-proyecto">
+           <span>Javascript • HTML5 • CSS3 • AOS • Library • FontAwesome</span>
+         </div>
+         <hr class="division">
+         <div class="contenedor-botones-proyecto">
+         <a class="boton-proyecto-repositorio"href="https://github.com/DvdOlivera/EasyBank" target="_blank">Ir al repositorio</a>
+         <a class="boton-proyecto-demo" href="https://dvdolivera.github.io/EasyBank/" target="_blank" >Live Demo</a>
+        </div>
+        <div class="contenedor-descripcion-proyecto">
+          <p>
+            Sitio web de eWallet Easybank 💰
+          </p>
+        </div>
+        </div>
+
+      </div>
+
+      <div  class="proyectos">
+        <div class="tarjeta-proyecto">
+         <div class="contenedor-img-proyecto">
+           <img class="preview-proyecto" src="src/img/fastfoodapp.png">
+          <div class="contenedor-tecnologia">
+            <img class="tecnologia-proyecto" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" />
+          </div>
+           
+         </div>
+         
+         <div class="contenedor-tecnologias-proyecto">
+           <span>ReactJS • HTML5 • CSS3 • JSX • GoogleFonts </span>
+         </div>
+         <hr class="division">
+         <div class="contenedor-botones-proyecto">
+         <a class="boton-proyecto-repositorio" href="https://github.com/DvdOlivera/Fastfood-Page-" target="_blank" >Ir al repositorio</a>
+         <a class="boton-proyecto-demo" href="https://dvdolivera.github.io/Fastfood-Page-/" target="_blank" >Live Demo</a>
+        </div>
+        <div class="contenedor-descripcion-proyecto">
+          <p>
+            Sitio web de Comida Rapida 🍔
+          </p>
+        </div>
+        </div>
+
+      </div>
+      
+      <div class="proyectos">
+        <div class="tarjeta-proyecto">
+         <div class="contenedor-img-proyecto">
+           <img class="preview-proyecto" src="src/img/Pokedex.png">
+          <div class="contenedor-tecnologia">
+            <img class="tecnologia-proyecto" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+          </div>
+           
+         </div>
+         
+         <div class="contenedor-tecnologias-proyecto">
+           <span> Javascript • HTML5 • CSS3 • API RESTful </span>
+         </div>
+         <hr class="division">
+         <div class="contenedor-botones-proyecto">
+         <a class="boton-proyecto-repositorio" href="https://github.com/DvdOlivera/Pokedex"target="_blank" >Ir al repositorio</a>
+         <a class="boton-proyecto-demo" href="https://dvdolivera.github.io/Pokedex/#" target="_blank">Live Demo</a>
+        </div>
+        <div class="contenedor-descripcion-proyecto">
+          <p>
+            Veloz Pokédex conectada a una RESTful API 💡💨
+          </p>
+        </div>
+        </div>
+
+      </div>
+
+      <div class="proyectos">
+        <div class="tarjeta-proyecto">
+         <div class="contenedor-img-proyecto">
+           <img class="preview-proyecto" src="src/img/climaapp.png">
+          <div class="contenedor-tecnologia">
+            <img class="tecnologia-proyecto" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" />
+          </div>
+           
+         </div>
+         
+         <div class="contenedor-tecnologias-proyecto">
+           <span>ReactJS• HTML5 • CSS3 • API RESTful</span>
+         </div>
+         <hr class="division">
+         <div class="contenedor-botones-proyecto">
+         <a class="boton-proyecto-repositorio" href="https://github.com/DvdOlivera/weather-app" target="_blank">Ir al repositorio</a>
+         <a class="boton-proyecto-demo" href="https://dvdolivera.github.io/weather-app/" target="_blank">Live Demo</a>
+        </div>
+        <div class="contenedor-descripcion-proyecto">
+          <p>
+            React App de clima conectada a una RESTful API🌤
+          </p>
+        </div>
+        </div>
+
+      </div>
+
+   
+
+    </div>
+ 
+    
+    </div>
+    <div class="wave down">
+      <div style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+              style="height: 100%; width: 100%;">
+              <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                  style="stroke: none; fill: #ececec;"></path>
+          </svg>
+      </div>
+  </div>
+  </div>
+
+  <div class="seccion">
+      
+     <div id="contacto">
+      <h1 id="contacto-encabezado" >Contacto</h1>
+      <div class="contenedor-contacto">
+        <div  class="contenedor-mi-foto" data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine"  >
+        <img id="mi-foto"src="FOTO1.jpg" alt="mi foto"  >
+        </div> 
+        <div class="formas-de-contacto" data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine"
+        >
+      
 
             <div class="tarjeta">
-              <div style="font-size: 40px;" class="imagen-contacto">
+              <div  class="imagen-contacto">
                 <i class="ri-mail-send-line"></i>
               </div>
               <div class="contenedor-parrafos">
@@ -90,7 +264,7 @@
             </div>
 
             <div class="tarjeta">
-              <div style="font-size: 40px;" class="imagen-contacto">
+              <div  class="imagen-contacto">
                 <i class="ri-whatsapp-line"></i>
               </div>
               <div class="contenedor-parrafos">
@@ -99,37 +273,121 @@
               </div>
 
             </div>
-        </div>        
-        <img id="mi-foto"src="FOTO1.jpg" alt="">
-    </div>
-  </div>
+            <div class="tarjeta">
+              <div  class="imagen-contacto">
+                <i class="ri-linkedin-box-fill"></i>
+              </div>
+              <div class="contenedor-parrafos">
+                <p class="parrafo-titulo">LinkedIn</p>
+                <a class= "parrafo-contenido" href="https://www.linkedin.com/in/david-olivera-3585a2204/" target="_blank">https://www.linkedin.com/in/david-olivera-3585a2204/</a>
+              </div>
+
+            </div>
+            <div class="tarjeta">
+              <div class="imagen-contacto">
+                <i class="ri-twitter-fill"></i>
+              </div>
+              <div class="contenedor-parrafos">
+                <p class="parrafo-titulo">Twitter</p>
+                <a class= "parrafo-contenido" href="https://twitter.com/dvdolivera_dev" target="_blank">https://twitter.com/dvdolivera_dev</a>
+              </div>
+
+            </div>
+        </div> 
 
 
-  <div class="seccion">
-    <div class="min-h-screen bg-gray-100 flex justify-center items-center">
-      <div class="container flex justify-center">
-        <div class="max-w-sm py-32">
-          <div class="bg-white relative shadow-lg hover:shadow-xl transition duration-500 rounded-lg">
-            <img class="rounded-t-lg" src="https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1049&q=80" alt="" />
-            <div class="py-6 px-8 rounded-lg bg-white">
-              <h1 class="text-gray-700 font-bold text-2xl mb-3 hover:text-gray-900 hover:cursor-pointer">I'm supper dog for you.</h1>
-              <p class="text-gray-700 tracking-wide">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum, labore. Ea debitis beatae sequi deleniti.</p>
-              <button class="mt-6 py-2 px-4 bg-yellow-400 text-gray-800 font-bold rounded-lg shadow-md hover:shadow-lg transition duration-300">Buy Now</button>
-            </div>
-            <div class="absolute top-2 right-2 py-2 px-4 bg-white rounded-lg">
-              <span class="text-md">$150</span>
-            </div>
-          </div>
-        </div>
       </div>
+      
+        
     </div>
+    <div class="wave down">
+      <div style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+              style="height: 100%; width: 100%;">
+              <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                  style="stroke: none; fill: #53b0bd;"></path>
+          </svg>
+      </div>
   </div>
+  </div>
+
+  <div class="seccion fondo-celeste" >
+
+    <div data-aos="fade-down"
+    data-aos-easing="linear"
+    data-aos-duration="800" id="mega-contenedor-sobre-mi">
+      <h1 class="encabezado-sobre-mi">Sobre Mí</h1>
+
+        <div class="informacion">
+          <div class="resumen">
+            Soy un programador Jr autodidacta. En el 2019 descubrí mi pasión por programar 💻 y desde entonces, encontré en mi camino una multitud de nuevas y maravillosas experiencias, y sigo en busca de más. Siempre atento al surgimiento de tecnologías modernas, excitantes desafíos, y oportunidades como developer.
+          </div>
+          <hr class="division-sobre-mi" >
+          <div class="formacion">
+            <h2 class="titulos">
+              FORMACIÓN :
+              </h2>  
+              <p class="parrafo-simple">
+                  Clases de Desarrollo Web ( <a href="https://argentinaprograma.com/" class="link" ><span>
+                    Proyecto r/Argentina Programa
+                  </span> </a> )
+              </p>
+              <p class="parrafo-simple">
+                  Curso FullStack ( <a href="https://aprendejavascript.org/" class="link" > <span>
+                    aprendejavascript.org
+                  </span>  </a> )
+              </p>
+          
+    
+          </div>
+          <div class="idiomas">
+            <h2 class="titulos">
+              IDIOMAS :
+              </h2>  
+          
+              <div class="parrafo-simple">
+                <span>  Español :    Nativo </span>
+              </div>
+              <div class="parrafo-simple" >
+                <span>   Ingles :   Intermedio </span>
+              </div>
+         
+          </div>
+          <hr class="division-sobre-mi" >
+        </div>
+      
+     
+    </div>
+    
+    <div class="wave down">
+      <div style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+              style="height: 100%; width: 100%;">
+              <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                  style="stroke: none; fill: #c2b394;"></path>
+          </svg>
+      </div>
+  </div>
+  </div>
+
+    
+</div>
+
   </div>
   
 
 
   
-    <footer></footer>
-    <script src='main.js'></script>
+    <footer>
+      <p class="copyright">© 2020-2021 David Olivera</p>
+    </footer>
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 100,
+        delay: 0,
+        duration: 500
+      });
+  
+    </script>
 </body>
 </html>
