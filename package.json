@@ -4,7 +4,9 @@
   "description": "Portfolio",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "cypress open",
+    "cy:run": "cypress run"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/DvdOlivera/nuevo-portfolio/issues"
   },
-  "homepage": "https://github.com/DvdOlivera/nuevo-portfolio#readme"
+  "homepage": "https://github.com/DvdOlivera/nuevo-portfolio#readme",
+  "devDependencies": {
+    "cypress": "^9.0.0"
+  }
 }

@@ -104,7 +104,7 @@ body .contenedor .seccion, html .contenedor .seccion {
   background-color: #ececec;
   text-align: center;
 }
-body .contenedor .seccion #mega-contenedor, body .contenedor .seccion #mega-contenedor-sobre-mi, html .contenedor .seccion #mega-contenedor, html .contenedor .seccion #mega-contenedor-sobre-mi {
+body .contenedor .seccion #mega-contenedor-proyectos, body .contenedor .seccion #mega-contenedor-sobre-mi, html .contenedor .seccion #mega-contenedor-proyectos, html .contenedor .seccion #mega-contenedor-sobre-mi {
   margin: 0 auto;
   gap: 15px;
   display: flex;
@@ -113,11 +113,11 @@ body .contenedor .seccion #mega-contenedor, body .contenedor .seccion #mega-cont
   flex-direction: column;
   text-align: center;
 }
-body .contenedor .seccion #mega-contenedor .informacion, body .contenedor .seccion #mega-contenedor-sobre-mi .informacion, html .contenedor .seccion #mega-contenedor .informacion, html .contenedor .seccion #mega-contenedor-sobre-mi .informacion {
+body .contenedor .seccion #mega-contenedor-proyectos .informacion, body .contenedor .seccion #mega-contenedor-sobre-mi .informacion, html .contenedor .seccion #mega-contenedor-proyectos .informacion, html .contenedor .seccion #mega-contenedor-sobre-mi .informacion {
   color: #fbfbfb;
   font-family: "Nunito", sans-serif;
 }
-body .contenedor .seccion #mega-contenedor .informacion .resumen, body .contenedor .seccion #mega-contenedor-sobre-mi .informacion .resumen, html .contenedor .seccion #mega-contenedor .informacion .resumen, html .contenedor .seccion #mega-contenedor-sobre-mi .informacion .resumen {
+body .contenedor .seccion #mega-contenedor-proyectos .informacion .resumen, body .contenedor .seccion #mega-contenedor-sobre-mi .informacion .resumen, html .contenedor .seccion #mega-contenedor-proyectos .informacion .resumen, html .contenedor .seccion #mega-contenedor-sobre-mi .informacion .resumen {
   width: 60%;
   margin: auto;
   font-size: 20px;
@@ -125,7 +125,7 @@ body .contenedor .seccion #mega-contenedor .informacion .resumen, body .contened
   font-weight: 700;
   font-family: "Courgette", cursive;
 }
-body .contenedor .seccion #mega-contenedor .informacion .division-sobre-mi, body .contenedor .seccion #mega-contenedor-sobre-mi .informacion .division-sobre-mi, html .contenedor .seccion #mega-contenedor .informacion .division-sobre-mi, html .contenedor .seccion #mega-contenedor-sobre-mi .informacion .division-sobre-mi {
+body .contenedor .seccion #mega-contenedor-proyectos .informacion .division-sobre-mi, body .contenedor .seccion #mega-contenedor-sobre-mi .informacion .division-sobre-mi, html .contenedor .seccion #mega-contenedor-proyectos .informacion .division-sobre-mi, html .contenedor .seccion #mega-contenedor-sobre-mi .informacion .division-sobre-mi {
   height: 2px;
   background: #fbfbfb;
   width: 50%;
@@ -134,67 +134,67 @@ body .contenedor .seccion #mega-contenedor .informacion .division-sobre-mi, body
   border: none;
   margin-bottom: 30px;
 }
-body .contenedor .seccion #mega-contenedor .informacion .formacion, body .contenedor .seccion #mega-contenedor-sobre-mi .informacion .formacion, html .contenedor .seccion #mega-contenedor .informacion .formacion, html .contenedor .seccion #mega-contenedor-sobre-mi .informacion .formacion {
+body .contenedor .seccion #mega-contenedor-proyectos .informacion .formacion, body .contenedor .seccion #mega-contenedor-sobre-mi .informacion .formacion, html .contenedor .seccion #mega-contenedor-proyectos .informacion .formacion, html .contenedor .seccion #mega-contenedor-sobre-mi .informacion .formacion {
   display: flex;
   flex-direction: column;
   margin-bottom: 30px;
   justify-content: center;
 }
-body .contenedor .seccion #mega-contenedor .informacion .formacion .titulos, body .contenedor .seccion #mega-contenedor-sobre-mi .informacion .formacion .titulos, html .contenedor .seccion #mega-contenedor .informacion .formacion .titulos, html .contenedor .seccion #mega-contenedor-sobre-mi .informacion .formacion .titulos {
+body .contenedor .seccion #mega-contenedor-proyectos .informacion .formacion .titulos, body .contenedor .seccion #mega-contenedor-sobre-mi .informacion .formacion .titulos, html .contenedor .seccion #mega-contenedor-proyectos .informacion .formacion .titulos, html .contenedor .seccion #mega-contenedor-sobre-mi .informacion .formacion .titulos {
   font-family: "Courgette", cursive;
   color: #12646f;
 }
-body .contenedor .seccion #mega-contenedor .informacion .formacion .parrafo-simple, body .contenedor .seccion #mega-contenedor-sobre-mi .informacion .formacion .parrafo-simple, html .contenedor .seccion #mega-contenedor .informacion .formacion .parrafo-simple, html .contenedor .seccion #mega-contenedor-sobre-mi .informacion .formacion .parrafo-simple {
+body .contenedor .seccion #mega-contenedor-proyectos .informacion .formacion .parrafo-simple, body .contenedor .seccion #mega-contenedor-sobre-mi .informacion .formacion .parrafo-simple, html .contenedor .seccion #mega-contenedor-proyectos .informacion .formacion .parrafo-simple, html .contenedor .seccion #mega-contenedor-sobre-mi .informacion .formacion .parrafo-simple {
   font-size: 20px;
   font-family: "Nunito", sans-serif;
   text-decoration: none;
   font-weight: 800;
 }
-body .contenedor .seccion #mega-contenedor .informacion .formacion .parrafo-simple .link, body .contenedor .seccion #mega-contenedor-sobre-mi .informacion .formacion .parrafo-simple .link, html .contenedor .seccion #mega-contenedor .informacion .formacion .parrafo-simple .link, html .contenedor .seccion #mega-contenedor-sobre-mi .informacion .formacion .parrafo-simple .link {
+body .contenedor .seccion #mega-contenedor-proyectos .informacion .formacion .parrafo-simple .link, body .contenedor .seccion #mega-contenedor-sobre-mi .informacion .formacion .parrafo-simple .link, html .contenedor .seccion #mega-contenedor-proyectos .informacion .formacion .parrafo-simple .link, html .contenedor .seccion #mega-contenedor-sobre-mi .informacion .formacion .parrafo-simple .link {
   text-decoration: none;
   color: inherit;
 }
-body .contenedor .seccion #mega-contenedor .informacion .formacion .parrafo-simple .link span, body .contenedor .seccion #mega-contenedor-sobre-mi .informacion .formacion .parrafo-simple .link span, html .contenedor .seccion #mega-contenedor .informacion .formacion .parrafo-simple .link span, html .contenedor .seccion #mega-contenedor-sobre-mi .informacion .formacion .parrafo-simple .link span {
+body .contenedor .seccion #mega-contenedor-proyectos .informacion .formacion .parrafo-simple .link span, body .contenedor .seccion #mega-contenedor-sobre-mi .informacion .formacion .parrafo-simple .link span, html .contenedor .seccion #mega-contenedor-proyectos .informacion .formacion .parrafo-simple .link span, html .contenedor .seccion #mega-contenedor-sobre-mi .informacion .formacion .parrafo-simple .link span {
   font-family: "Courgette", cursive;
   color: #12646f;
 }
-body .contenedor .seccion #mega-contenedor .informacion .formacion .parrafo-simple .link span:hover, body .contenedor .seccion #mega-contenedor-sobre-mi .informacion .formacion .parrafo-simple .link span:hover, html .contenedor .seccion #mega-contenedor .informacion .formacion .parrafo-simple .link span:hover, html .contenedor .seccion #mega-contenedor-sobre-mi .informacion .formacion .parrafo-simple .link span:hover {
+body .contenedor .seccion #mega-contenedor-proyectos .informacion .formacion .parrafo-simple .link span:hover, body .contenedor .seccion #mega-contenedor-sobre-mi .informacion .formacion .parrafo-simple .link span:hover, html .contenedor .seccion #mega-contenedor-proyectos .informacion .formacion .parrafo-simple .link span:hover, html .contenedor .seccion #mega-contenedor-sobre-mi .informacion .formacion .parrafo-simple .link span:hover {
   color: #082c31;
 }
-body .contenedor .seccion #mega-contenedor .informacion .idiomas, body .contenedor .seccion #mega-contenedor-sobre-mi .informacion .idiomas, html .contenedor .seccion #mega-contenedor .informacion .idiomas, html .contenedor .seccion #mega-contenedor-sobre-mi .informacion .idiomas {
+body .contenedor .seccion #mega-contenedor-proyectos .informacion .idiomas, body .contenedor .seccion #mega-contenedor-sobre-mi .informacion .idiomas, html .contenedor .seccion #mega-contenedor-proyectos .informacion .idiomas, html .contenedor .seccion #mega-contenedor-sobre-mi .informacion .idiomas {
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin-bottom: 50px;
 }
-body .contenedor .seccion #mega-contenedor .informacion .idiomas .titulos, body .contenedor .seccion #mega-contenedor-sobre-mi .informacion .idiomas .titulos, html .contenedor .seccion #mega-contenedor .informacion .idiomas .titulos, html .contenedor .seccion #mega-contenedor-sobre-mi .informacion .idiomas .titulos {
+body .contenedor .seccion #mega-contenedor-proyectos .informacion .idiomas .titulos, body .contenedor .seccion #mega-contenedor-sobre-mi .informacion .idiomas .titulos, html .contenedor .seccion #mega-contenedor-proyectos .informacion .idiomas .titulos, html .contenedor .seccion #mega-contenedor-sobre-mi .informacion .idiomas .titulos {
   font-family: "Courgette", cursive;
   color: #12646f;
 }
-body .contenedor .seccion #mega-contenedor .informacion .idiomas .parrafo-simple, body .contenedor .seccion #mega-contenedor-sobre-mi .informacion .idiomas .parrafo-simple, html .contenedor .seccion #mega-contenedor .informacion .idiomas .parrafo-simple, html .contenedor .seccion #mega-contenedor-sobre-mi .informacion .idiomas .parrafo-simple {
+body .contenedor .seccion #mega-contenedor-proyectos .informacion .idiomas .parrafo-simple, body .contenedor .seccion #mega-contenedor-sobre-mi .informacion .idiomas .parrafo-simple, html .contenedor .seccion #mega-contenedor-proyectos .informacion .idiomas .parrafo-simple, html .contenedor .seccion #mega-contenedor-sobre-mi .informacion .idiomas .parrafo-simple {
   font-size: 25px;
   font-family: "Nunito", sans-serif;
   text-decoration: none;
   font-weight: 800;
 }
-body .contenedor .seccion #mega-contenedor .informacion .idiomas .parrafo-simple span, body .contenedor .seccion #mega-contenedor-sobre-mi .informacion .idiomas .parrafo-simple span, html .contenedor .seccion #mega-contenedor .informacion .idiomas .parrafo-simple span, html .contenedor .seccion #mega-contenedor-sobre-mi .informacion .idiomas .parrafo-simple span {
+body .contenedor .seccion #mega-contenedor-proyectos .informacion .idiomas .parrafo-simple span, body .contenedor .seccion #mega-contenedor-sobre-mi .informacion .idiomas .parrafo-simple span, html .contenedor .seccion #mega-contenedor-proyectos .informacion .idiomas .parrafo-simple span, html .contenedor .seccion #mega-contenedor-sobre-mi .informacion .idiomas .parrafo-simple span {
   font-weight: 500;
   color: #fbfbfb;
   font-family: "Courgette", cursive;
 }
-body .contenedor .seccion #mega-contenedor .encabezado-sobre-mi, body .contenedor .seccion #mega-contenedor-sobre-mi .encabezado-sobre-mi, html .contenedor .seccion #mega-contenedor .encabezado-sobre-mi, html .contenedor .seccion #mega-contenedor-sobre-mi .encabezado-sobre-mi {
+body .contenedor .seccion #mega-contenedor-proyectos .encabezado-sobre-mi, body .contenedor .seccion #mega-contenedor-sobre-mi .encabezado-sobre-mi, html .contenedor .seccion #mega-contenedor-proyectos .encabezado-sobre-mi, html .contenedor .seccion #mega-contenedor-sobre-mi .encabezado-sobre-mi {
   font-size: 30px;
   color: #fbfbfb;
   font-weight: 800;
   font-family: "Courgette", cursive;
 }
-body .contenedor .seccion #mega-contenedor .encabezado-proyectos, body .contenedor .seccion #mega-contenedor-sobre-mi .encabezado-proyectos, html .contenedor .seccion #mega-contenedor .encabezado-proyectos, html .contenedor .seccion #mega-contenedor-sobre-mi .encabezado-proyectos {
+body .contenedor .seccion #mega-contenedor-proyectos .encabezado-proyectos, body .contenedor .seccion #mega-contenedor-sobre-mi .encabezado-proyectos, html .contenedor .seccion #mega-contenedor-proyectos .encabezado-proyectos, html .contenedor .seccion #mega-contenedor-sobre-mi .encabezado-proyectos {
   font-size: 30px;
   color: #fbfbfb;
   font-weight: 800;
   font-family: "Courgette", cursive;
 }
-body .contenedor .seccion #mega-contenedor #contenedor-proyectos, body .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos, html .contenedor .seccion #mega-contenedor #contenedor-proyectos, html .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos {
+body .contenedor .seccion #mega-contenedor-proyectos #contenedor-proyectos, body .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos, html .contenedor .seccion #mega-contenedor-proyectos #contenedor-proyectos, html .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos {
   margin-top: 70px;
   display: flex;
   gap: 10px;
@@ -203,19 +203,19 @@ body .contenedor .seccion #mega-contenedor #contenedor-proyectos, body .contened
   overflow-x: scroll;
   scroll-snap-type: x mandatory;
 }
-body .contenedor .seccion #mega-contenedor #contenedor-proyectos .proyectos, body .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos .proyectos, html .contenedor .seccion #mega-contenedor #contenedor-proyectos .proyectos, html .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos .proyectos {
+body .contenedor .seccion #mega-contenedor-proyectos #contenedor-proyectos .proyectos, body .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos .proyectos, html .contenedor .seccion #mega-contenedor-proyectos #contenedor-proyectos .proyectos, html .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos .proyectos {
   width: 100%;
   scroll-snap-align: center;
   height: 450px;
 }
-body .contenedor .seccion #mega-contenedor #contenedor-proyectos .proyectos .tarjeta-proyecto, body .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos .proyectos .tarjeta-proyecto, html .contenedor .seccion #mega-contenedor #contenedor-proyectos .proyectos .tarjeta-proyecto, html .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos .proyectos .tarjeta-proyecto {
+body .contenedor .seccion #mega-contenedor-proyectos #contenedor-proyectos .proyectos .tarjeta-proyecto, body .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos .proyectos .tarjeta-proyecto, html .contenedor .seccion #mega-contenedor-proyectos #contenedor-proyectos .proyectos .tarjeta-proyecto, html .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos .proyectos .tarjeta-proyecto {
   border-radius: 10px 10px 10px 10px;
   height: 400px;
   width: 300px;
   overflow: hidden;
   background-color: #12646f;
 }
-body .contenedor .seccion #mega-contenedor #contenedor-proyectos .proyectos .tarjeta-proyecto .division, body .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos .proyectos .tarjeta-proyecto .division, html .contenedor .seccion #mega-contenedor #contenedor-proyectos .proyectos .tarjeta-proyecto .division, html .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos .proyectos .tarjeta-proyecto .division {
+body .contenedor .seccion #mega-contenedor-proyectos #contenedor-proyectos .proyectos .tarjeta-proyecto .division, body .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos .proyectos .tarjeta-proyecto .division, html .contenedor .seccion #mega-contenedor-proyectos #contenedor-proyectos .proyectos .tarjeta-proyecto .division, html .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos .proyectos .tarjeta-proyecto .division {
   height: 2px;
   background: #53b0bd;
   width: 50%;
@@ -223,13 +223,13 @@ body .contenedor .seccion #mega-contenedor #contenedor-proyectos .proyectos .tar
   margin-top: 20px;
   border: none;
 }
-body .contenedor .seccion #mega-contenedor #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-botones-proyecto, body .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-botones-proyecto, html .contenedor .seccion #mega-contenedor #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-botones-proyecto, html .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-botones-proyecto {
+body .contenedor .seccion #mega-contenedor-proyectos #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-botones-proyecto, body .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-botones-proyecto, html .contenedor .seccion #mega-contenedor-proyectos #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-botones-proyecto, html .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-botones-proyecto {
   display: flex;
   justify-content: center;
   margin-top: 20px;
   gap: 5%;
 }
-body .contenedor .seccion #mega-contenedor #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-botones-proyecto .boton-proyecto-repositorio, body .contenedor .seccion #mega-contenedor #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-botones-proyecto .boton-proyecto-demo, body .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-botones-proyecto .boton-proyecto-repositorio, body .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-botones-proyecto .boton-proyecto-demo, html .contenedor .seccion #mega-contenedor #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-botones-proyecto .boton-proyecto-repositorio, html .contenedor .seccion #mega-contenedor #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-botones-proyecto .boton-proyecto-demo, html .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-botones-proyecto .boton-proyecto-repositorio, html .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-botones-proyecto .boton-proyecto-demo {
+body .contenedor .seccion #mega-contenedor-proyectos #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-botones-proyecto .boton-proyecto-repositorio, body .contenedor .seccion #mega-contenedor-proyectos #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-botones-proyecto .boton-proyecto-demo, body .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-botones-proyecto .boton-proyecto-repositorio, body .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-botones-proyecto .boton-proyecto-demo, html .contenedor .seccion #mega-contenedor-proyectos #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-botones-proyecto .boton-proyecto-repositorio, html .contenedor .seccion #mega-contenedor-proyectos #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-botones-proyecto .boton-proyecto-demo, html .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-botones-proyecto .boton-proyecto-repositorio, html .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-botones-proyecto .boton-proyecto-demo {
   font-size: 15px;
   width: 120px;
   color: #12646f;
@@ -243,18 +243,18 @@ body .contenedor .seccion #mega-contenedor #contenedor-proyectos .proyectos .tar
   justify-content: center;
   align-items: center;
 }
-body .contenedor .seccion #mega-contenedor #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-botones-proyecto .boton-proyecto-repositorio:hover, body .contenedor .seccion #mega-contenedor #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-botones-proyecto .boton-proyecto-demo:hover, body .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-botones-proyecto .boton-proyecto-repositorio:hover, body .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-botones-proyecto .boton-proyecto-demo:hover, html .contenedor .seccion #mega-contenedor #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-botones-proyecto .boton-proyecto-repositorio:hover, html .contenedor .seccion #mega-contenedor #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-botones-proyecto .boton-proyecto-demo:hover, html .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-botones-proyecto .boton-proyecto-repositorio:hover, html .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-botones-proyecto .boton-proyecto-demo:hover {
+body .contenedor .seccion #mega-contenedor-proyectos #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-botones-proyecto .boton-proyecto-repositorio:hover, body .contenedor .seccion #mega-contenedor-proyectos #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-botones-proyecto .boton-proyecto-demo:hover, body .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-botones-proyecto .boton-proyecto-repositorio:hover, body .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-botones-proyecto .boton-proyecto-demo:hover, html .contenedor .seccion #mega-contenedor-proyectos #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-botones-proyecto .boton-proyecto-repositorio:hover, html .contenedor .seccion #mega-contenedor-proyectos #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-botones-proyecto .boton-proyecto-demo:hover, html .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-botones-proyecto .boton-proyecto-repositorio:hover, html .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-botones-proyecto .boton-proyecto-demo:hover {
   background-color: #53b0bd;
   color: #fbfbfb;
   border: 3px solid #fbfbfb;
 }
-body .contenedor .seccion #mega-contenedor #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-descripcion-proyecto, body .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-descripcion-proyecto, html .contenedor .seccion #mega-contenedor #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-descripcion-proyecto, html .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-descripcion-proyecto {
+body .contenedor .seccion #mega-contenedor-proyectos #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-descripcion-proyecto, body .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-descripcion-proyecto, html .contenedor .seccion #mega-contenedor-proyectos #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-descripcion-proyecto, html .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-descripcion-proyecto {
   display: flex;
   justify-content: center;
   font-family: "Nunito", sans-serif;
   color: #c2b394;
 }
-body .contenedor .seccion #mega-contenedor #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-tecnologias-proyecto, body .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-tecnologias-proyecto, html .contenedor .seccion #mega-contenedor #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-tecnologias-proyecto, html .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-tecnologias-proyecto {
+body .contenedor .seccion #mega-contenedor-proyectos #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-tecnologias-proyecto, body .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-tecnologias-proyecto, html .contenedor .seccion #mega-contenedor-proyectos #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-tecnologias-proyecto, html .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-tecnologias-proyecto {
   display: flex;
   justify-content: center;
   gap: 2%;
@@ -264,13 +264,13 @@ body .contenedor .seccion #mega-contenedor #contenedor-proyectos .proyectos .tar
   font-weight: 800;
   color: #fbfbfb;
 }
-body .contenedor .seccion #mega-contenedor #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-img-proyecto, body .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-img-proyecto, html .contenedor .seccion #mega-contenedor #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-img-proyecto, html .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-img-proyecto {
+body .contenedor .seccion #mega-contenedor-proyectos #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-img-proyecto, body .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-img-proyecto, html .contenedor .seccion #mega-contenedor-proyectos #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-img-proyecto, html .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-img-proyecto {
   display: block;
   width: 300px;
   height: 150px;
   overflow: hidden;
 }
-body .contenedor .seccion #mega-contenedor #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-img-proyecto .preview-proyecto, body .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-img-proyecto .preview-proyecto, html .contenedor .seccion #mega-contenedor #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-img-proyecto .preview-proyecto, html .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-img-proyecto .preview-proyecto {
+body .contenedor .seccion #mega-contenedor-proyectos #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-img-proyecto .preview-proyecto, body .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-img-proyecto .preview-proyecto, html .contenedor .seccion #mega-contenedor-proyectos #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-img-proyecto .preview-proyecto, html .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-img-proyecto .preview-proyecto {
   filter: brightness(50%);
   display: flex;
   width: 300px;
@@ -278,32 +278,32 @@ body .contenedor .seccion #mega-contenedor #contenedor-proyectos .proyectos .tar
   border-radius: 10px 10px 0px 0px;
   position: absolute;
 }
-body .contenedor .seccion #mega-contenedor #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-img-proyecto .preview-proyecto:hover, body .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-img-proyecto .preview-proyecto:hover, html .contenedor .seccion #mega-contenedor #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-img-proyecto .preview-proyecto:hover, html .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-img-proyecto .preview-proyecto:hover {
+body .contenedor .seccion #mega-contenedor-proyectos #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-img-proyecto .preview-proyecto:hover, body .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-img-proyecto .preview-proyecto:hover, html .contenedor .seccion #mega-contenedor-proyectos #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-img-proyecto .preview-proyecto:hover, html .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-img-proyecto .preview-proyecto:hover {
   transition: 0.5s;
   filter: brightness(100%);
 }
-body .contenedor .seccion #mega-contenedor #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-img-proyecto .contenedor-tecnologia, body .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-img-proyecto .contenedor-tecnologia, html .contenedor .seccion #mega-contenedor #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-img-proyecto .contenedor-tecnologia, html .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-img-proyecto .contenedor-tecnologia {
+body .contenedor .seccion #mega-contenedor-proyectos #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-img-proyecto .contenedor-tecnologia, body .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-img-proyecto .contenedor-tecnologia, html .contenedor .seccion #mega-contenedor-proyectos #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-img-proyecto .contenedor-tecnologia, html .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-img-proyecto .contenedor-tecnologia {
   width: 100%;
   display: flex;
   justify-content: flex-end;
 }
-body .contenedor .seccion #mega-contenedor #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-img-proyecto .contenedor-tecnologia .tecnologia-proyecto, body .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-img-proyecto .contenedor-tecnologia .tecnologia-proyecto, html .contenedor .seccion #mega-contenedor #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-img-proyecto .contenedor-tecnologia .tecnologia-proyecto, html .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-img-proyecto .contenedor-tecnologia .tecnologia-proyecto {
+body .contenedor .seccion #mega-contenedor-proyectos #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-img-proyecto .contenedor-tecnologia .tecnologia-proyecto, body .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-img-proyecto .contenedor-tecnologia .tecnologia-proyecto, html .contenedor .seccion #mega-contenedor-proyectos #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-img-proyecto .contenedor-tecnologia .tecnologia-proyecto, html .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-img-proyecto .contenedor-tecnologia .tecnologia-proyecto {
   margin: 3%;
   height: 90px;
   width: 90px;
   position: absolute;
   border-radius: 15px;
 }
-body .contenedor .seccion #mega-contenedor #contenedor-proyectos::-webkit-scrollbar, body .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos::-webkit-scrollbar, html .contenedor .seccion #mega-contenedor #contenedor-proyectos::-webkit-scrollbar, html .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos::-webkit-scrollbar {
+body .contenedor .seccion #mega-contenedor-proyectos #contenedor-proyectos::-webkit-scrollbar, body .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos::-webkit-scrollbar, html .contenedor .seccion #mega-contenedor-proyectos #contenedor-proyectos::-webkit-scrollbar, html .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos::-webkit-scrollbar {
   height: 10px;
   background-color: #fbfbfb;
   border-radius: 5px;
 }
-body .contenedor .seccion #mega-contenedor #contenedor-proyectos::-webkit-scrollbar-thumb, body .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos::-webkit-scrollbar-thumb, html .contenedor .seccion #mega-contenedor #contenedor-proyectos::-webkit-scrollbar-thumb, html .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos::-webkit-scrollbar-thumb {
+body .contenedor .seccion #mega-contenedor-proyectos #contenedor-proyectos::-webkit-scrollbar-thumb, body .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos::-webkit-scrollbar-thumb, html .contenedor .seccion #mega-contenedor-proyectos #contenedor-proyectos::-webkit-scrollbar-thumb, html .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos::-webkit-scrollbar-thumb {
   background-color: #ff7300;
   border-radius: 5px;
 }
-body .contenedor .seccion #mega-contenedor #contenedor-proyectos::-webkit-scrollbar-thumb:hover, body .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos::-webkit-scrollbar-thumb:hover, html .contenedor .seccion #mega-contenedor #contenedor-proyectos::-webkit-scrollbar-thumb:hover, html .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos::-webkit-scrollbar-thumb:hover {
+body .contenedor .seccion #mega-contenedor-proyectos #contenedor-proyectos::-webkit-scrollbar-thumb:hover, body .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos::-webkit-scrollbar-thumb:hover, html .contenedor .seccion #mega-contenedor-proyectos #contenedor-proyectos::-webkit-scrollbar-thumb:hover, html .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos::-webkit-scrollbar-thumb:hover {
   background-color: #ffab66;
 }
 body .contenedor .seccion #descripcion, html .contenedor .seccion #descripcion {
@@ -314,7 +314,7 @@ body .contenedor .seccion #descripcion, html .contenedor .seccion #descripcion {
   font-size: 50px;
   font-weight: 600;
   padding: 20vh 0vw 10vh 0vw;
-  margin: 0 10% 0 10%;
+  margin: 10% 10% 0 10%;
 }
 body .contenedor .seccion #descripcion h1, html .contenedor .seccion #descripcion h1 {
   font-size: 60px;
@@ -467,7 +467,7 @@ body .contenedor .fondo-celeste, html .contenedor .fondo-celeste {
   body .contenedor .contenedor-nav-bar .nav-bar .opciones-nav {
     display: none;
   }
-  body .contenedor .seccion #mega-contenedor #contenedor-proyectos {
+  body .contenedor .seccion #mega-contenedor-proyectos #contenedor-proyectos {
     max-width: 300px;
   }
   body .contenedor .seccion #descripcion h1 {
@@ -488,7 +488,7 @@ body .contenedor .fondo-celeste, html .contenedor .fondo-celeste {
   }
 }
 @media (max-width: 480px) {
-  body .contenedor .seccion #mega-contenedor #contenedor-proyectos {
+  body .contenedor .seccion #mega-contenedor-proyectos #contenedor-proyectos {
     width: 300px;
   }
   body .contenedor .seccion #contacto .contenedor-contacto .contenedor-mi-foto #mi-foto {

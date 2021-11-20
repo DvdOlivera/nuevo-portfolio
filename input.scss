@@ -131,7 +131,7 @@ body,html {
         background-color: $gris;
         text-align: center;
 
-        #mega-contenedor,#mega-contenedor-sobre-mi{
+        #mega-contenedor-proyectos,#mega-contenedor-sobre-mi{
             margin: 0 auto;  
             gap:15px;  
             display: flex;
@@ -377,7 +377,7 @@ body,html {
             font-size: 50px;
             font-weight: 600;
             padding: 20vh 0vw 10vh 0vw;
-            margin: 0 10% 0 10%;
+            margin: 10% 10% 0 10%;
             h1 {
                 font-size: 60px;
                 margin: 0;
@@ -582,7 +582,7 @@ body,html {
                 }
             }
             .seccion{
-                #mega-contenedor{
+                #mega-contenedor-proyectos{
                     #contenedor-proyectos{
                         max-width: 300px;
                     }
@@ -627,7 +627,7 @@ body,html {
     body{
         .contenedor{
             .seccion{
-                #mega-contenedor{
+                #mega-contenedor-proyectos{
                     #contenedor-proyectos{
                        
                            
