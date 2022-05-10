@@ -249,6 +249,7 @@ body .contenedor .seccion #mega-contenedor-proyectos #contenedor-proyectos .proy
   border: 3px solid #fbfbfb;
 }
 body .contenedor .seccion #mega-contenedor-proyectos #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-descripcion-proyecto, body .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-descripcion-proyecto, html .contenedor .seccion #mega-contenedor-proyectos #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-descripcion-proyecto, html .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos .proyectos .tarjeta-proyecto .contenedor-descripcion-proyecto {
+  margin: 5%;
   display: flex;
   justify-content: center;
   font-family: "Nunito", sans-serif;
@@ -300,11 +301,11 @@ body .contenedor .seccion #mega-contenedor-proyectos #contenedor-proyectos::-web
   border-radius: 5px;
 }
 body .contenedor .seccion #mega-contenedor-proyectos #contenedor-proyectos::-webkit-scrollbar-thumb, body .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos::-webkit-scrollbar-thumb, html .contenedor .seccion #mega-contenedor-proyectos #contenedor-proyectos::-webkit-scrollbar-thumb, html .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos::-webkit-scrollbar-thumb {
-  background-color: #ff7300;
+  background-color: rgb(255, 115, 0);
   border-radius: 5px;
 }
 body .contenedor .seccion #mega-contenedor-proyectos #contenedor-proyectos::-webkit-scrollbar-thumb:hover, body .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos::-webkit-scrollbar-thumb:hover, html .contenedor .seccion #mega-contenedor-proyectos #contenedor-proyectos::-webkit-scrollbar-thumb:hover, html .contenedor .seccion #mega-contenedor-sobre-mi #contenedor-proyectos::-webkit-scrollbar-thumb:hover {
-  background-color: #ffab66;
+  background-color: rgb(255, 171, 102);
 }
 body .contenedor .seccion #descripcion, html .contenedor .seccion #descripcion {
   display: flex;
